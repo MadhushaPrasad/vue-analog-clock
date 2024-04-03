@@ -1,0 +1,36 @@
+{
+  "name": "vue-analog-clock",
+  "private": false,
+  "description": "A simple analog clock component for Vue 3",
+  "version": "0.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-analog-clock.cjs",
+  "module": "./dist/vue-analog-clock.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-analog-clock.js",
+      "require": "./dist/vue-analog-clock.cjs"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0",
+    "vite-plugin-lib-inject-css": "^2.0.1"
+  },
+  "author": {
+    "name": "madhusha_99",
+    "email": "madushaprasad21@gmail.com"
+  }
+}
