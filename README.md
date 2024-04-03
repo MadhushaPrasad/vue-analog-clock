@@ -11,14 +11,14 @@ This package provides a Vue 3 component to display an analog clock. It's lightwe
 ### Install the package via npm:
 
 ```bash
-npm install vue-analog-clock
+npm install vue3-analog-clock
 ```
 
 ## Import the component and register it in your main.js or main.ts file:
 ```javascript
 import { createApp } from 'vue'
 import App from './App.vue'
-import AnalogClock from 'vue-analog-clock'
+import AnalogClock from 'vue3-analog-clock'
 
 const app = createApp(App)
 

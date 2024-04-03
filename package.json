@@ -1,17 +1,17 @@
 {
-  "name": "vue-analog-clock",
+  "name": "vue3-analog-clock",
   "private": false,
   "description": "A simple analog clock component for Vue 3",
   "version": "0.0.0",
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-analog-clock.cjs",
-  "module": "./dist/vue-analog-clock.js",
+  "main": "./dist/vue3-analog-clock.cjs",
+  "module": "./dist/vue3-analog-clock.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-analog-clock.js",
-      "require": "./dist/vue-analog-clock.cjs"
+      "import": "./dist/vue3-analog-clock.js",
+      "require": "./dist/vue3-analog-clock.cjs"
     },
     "./dist/style.css": "./dist/style.css"
   },
@@ -32,5 +32,10 @@
   "author": {
     "name": "madhusha_99",
     "email": "madushaprasad21@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MadhushaPrasad/vue-analog-clock.git"
   }
 }
