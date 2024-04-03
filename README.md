@@ -39,6 +39,9 @@ app.mount('#app')
 
 ## Demo
 
+![ezgif-1-3d019c9ad5](https://github.com/MadhushaPrasad/vue-analog-clock/assets/50085447/fe6c60e1-a631-42cc-9d93-5bd1bc7e0791)
+
+
 ### Keywords
 Vue, Vue 3, Analog Clock, Clock Component, Vue Component
 
