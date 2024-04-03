@@ -37,5 +37,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/MadhushaPrasad/vue-analog-clock.git"
-  }
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "analog",
+    "clock",
+    "analog-clock",
+    "vue3-analog-clock"
+  ]
 }
