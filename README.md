@@ -19,6 +19,7 @@ npm install vue3-analog-clock
 import { createApp } from 'vue'
 import App from './App.vue'
 import AnalogClock from 'vue3-analog-clock'
+import "vue3-analog-clock/dist/style.css";
 
 const app = createApp(App)
 
