@@ -10,9 +10,9 @@ export default defineConfig({
       name: "vue3-analog-clock",
       fileName: (format, name) => {
         if (format === "es") {
-          return `${name}.js`;
+          return `vue3-analog-clock.js`;
         }
-        return `${name}.${format}`;
+        return `vue3-analog-clock.${format}`;
       },
     },
     rollupOptions: {

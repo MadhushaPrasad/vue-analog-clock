@@ -6,7 +6,7 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vue3-analog-clock.cjs",
+  "main": "./dist/vue3-analog-clock.js",
   "module": "./dist/vue3-analog-clock.js",
   "exports": {
     ".": {
