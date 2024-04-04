@@ -47,5 +47,8 @@ app.mount('#app')
 
 - [Madhusha Prasad](https://github.com/MadhushaPrasad)
 
+### Keywords
+**Vue, Vue 3, Analog Clock, Clock Component, Vue Component**
+
 ### License
 This package is licensed under the [MIT License](https://github.com/MadhushaPrasad/vue-analog-clock/blob/main/LICENSE)
