@@ -15,8 +15,6 @@ npm install vue3-analog-clock
 ```
 or go to npm <a href="https://www.npmjs.com/package/vue3-analog-clock" target="_blank">package link</a>
 
-or go to npm <a href="https://www.npmjs.com/package/vue3-analog-clock" target="_blank">package link</a>
-
 ## Import the component and register it in your main.js or main.ts file:
 
 ```javascript
