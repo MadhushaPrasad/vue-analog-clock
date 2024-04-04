@@ -1,10 +1,10 @@
 # Vue 3 Analog Clock Component
 
-A simple <mark>analog clock component</mark> for <mark>Vue 3</mark>.
+A simple **analog clock component** for **Vue 3**.
 
 
 ## Description
-This package provides a <mark>Vue 3</mark> component to display an <mark>analog clock</mark>. It's lightweight, customizable, and easy to integrate into your <mark>Vue 3</mark> projects.
+This package provides a **Vue 3** component to display an **analog clock**. It's lightweight, customizable, and easy to integrate into your **Vue 3** projects.
 
 ## Usage
 
