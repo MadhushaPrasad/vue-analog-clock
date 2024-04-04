@@ -43,9 +43,8 @@ app.mount('#app')
 
 ![ezgif-1-3d019c9ad5](https://github.com/MadhushaPrasad/vue-analog-clock/assets/50085447/fe6c60e1-a631-42cc-9d93-5bd1bc7e0791)
 
-# 🌱 Contributors
-
-- [Madhusha Prasad](https://github.com/MadhushaPrasad)
+## 🌱 Contributors
+[ ![](https://camo.githubusercontent.com/e5bdd846c2bf495454efaabb0e3ea72815dddd51492dd7366ad9cafae91f1223/68747470733a2f2f636f6e747269622e726f636b732f696d6167653f7265706f3d4d616468757368615072617361642f7675652d616e616c6f672d636c6f636b) ](https://github.com/MadhushaPrasad/vue-analog-clock/graphs/contributors)
 
 ### Keywords
 **Vue, Vue 3, Analog Clock, Clock Component, Vue Component**
