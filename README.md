@@ -13,6 +13,7 @@ This package provides a **Vue 3** component to display an **analog clock**. It's
 ```bash
 npm install vue3-analog-clock
 ```
+or go to npm <a href="https://www.npmjs.com/package/vue3-analog-clock" target="_blank">package link</a>
 
 or go to npm <a href="https://www.npmjs.com/package/vue3-analog-clock" target="_blank">package link</a>
 
