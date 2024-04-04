@@ -1,10 +1,10 @@
 # Vue 3 Analog Clock Component
 
-A simple analog clock component for Vue 3.
+A simple <mark>analog clock component</mark> for <mark>Vue 3</mark>.
 
 
 ## Description
-This package provides a Vue 3 component to display an analog clock. It's lightweight, customizable, and easy to integrate into your Vue 3 projects.
+This package provides a <mark>Vue 3</mark> component to display an <mark>analog clock</mark>. It's lightweight, customizable, and easy to integrate into your <mark>Vue 3</mark> projects.
 
 ## Usage
 
@@ -42,9 +42,9 @@ app.mount('#app')
 
 ![ezgif-1-3d019c9ad5](https://github.com/MadhushaPrasad/vue-analog-clock/assets/50085447/fe6c60e1-a631-42cc-9d93-5bd1bc7e0791)
 
+### Contributors
 
-### Keywords
-Vue, Vue 3, Analog Clock, Clock Component, Vue Component
+- [Madhusha Prasad](https://github.com/MadhushaPrasad)
 
 ### License
-This package is licensed under the MIT License. See the LICENSE file for details.
+This package is licensed under the [MIT License](https://github.com/MadhushaPrasad/vue-analog-clock/blob/main/LICENSE)
