@@ -79,6 +79,26 @@ defineProps({
     type: String,
     default: "#f9f9f9",
   },
+  watchDigitsColor: {
+    type: String,
+    default: "#000000",
+  },
+  watchDigitsMinuteMarksColor: {
+    type: String,
+    default: "#929394",
+  },
+  watchHoursHand: {
+    type: String,
+    default: "#232425",
+  },
+  watchMinutesHand: {
+    type: String,
+    default: "#343536",
+  },
+  watchSecondsHand: {
+    type: String,
+    default: "#c00",
+  },
 });
 </script>
 
@@ -191,11 +211,11 @@ ul {
   display: block;
   width: 0.2em;
   height: 0.6em;
-  background: #929394;
   position: absolute;
   top: 50%;
   left: 50%;
   margin: -0.4em 0 0 -0.1em;
+  background: v-bind(watchDigitsMinuteMarksColor);
 }
 #watch .minute-marks li:first-child {
   transform: rotate(6deg) translateY(-12.7em);
@@ -349,6 +369,7 @@ ul {
   top: 0;
   left: 50%;
   margin-left: -15em;
+  color: v-bind(watchDigitsColor);
 }
 #watch .digits li {
   font-size: 1.6em;
@@ -450,7 +471,7 @@ ul {
   width: 0.8em;
   height: 7em;
   border-radius: 0 0 0.9em 0.9em;
-  background: #232425;
+  background: v-bind(watchHoursHand);
   position: absolute;
   bottom: 50%;
   left: 50%;
@@ -475,7 +496,7 @@ ul {
   content: "";
   width: 0;
   height: 0;
-  border: 0.9em solid #232425;
+  border: 0.9em solid v-bind(watchHoursHand);
   border-width: 0 0.9em 2.4em 0.9em;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -492,7 +513,7 @@ ul {
   width: 0.8em;
   height: 12.5em;
   border-radius: 0.5em;
-  background: #343536;
+  background: v-bind(watchMinutesHand);
   position: absolute;
   bottom: 50%;
   left: 50%;
@@ -511,7 +532,7 @@ ul {
   width: 0.2em;
   height: 14em;
   border-radius: 0.1em 0.1em 0 0/10em 10em 0 0;
-  background: #c00;
+  background: v-bind(watchSecondsHand);
   position: absolute;
   bottom: 50%;
   left: 50%;
