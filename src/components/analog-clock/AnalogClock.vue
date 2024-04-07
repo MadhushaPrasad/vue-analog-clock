@@ -71,6 +71,17 @@
   </div>
 </template>
 
+<script setup>
+import { defineProps } from "vue";
+
+defineProps({
+  watchFaceBackground: {
+    type: String,
+    default: "#f9f9f9",
+  },
+});
+</script>
+
 <style scoped>
 ul {
   list-style: none;
@@ -89,9 +100,21 @@ ul {
   height: 30em;
   margin: 2em auto;
   border-radius: 15em;
-  background: -webkit-linear-gradient(top, #f9f9f9, #666);
-  background: -moz-linear-gradient(top, #f9f9f9, #666);
-  background: linear-gradient(to bottom, #f9f9f9, #666);
+  background: -webkit-linear-gradient(
+    top,
+    v-bind(watchFaceBackground),
+    v-bind(watchFaceBackground)
+  );
+  background: -moz-linear-gradient(
+    top,
+    v-bind(watchFaceBackground),
+    v-bind(watchFaceBackground)
+  );
+  background: linear-gradient(
+    to bottom,
+    v-bind(watchFaceBackground),
+    v-bind(watchFaceBackground)
+  );
   box-shadow: rgba(0, 0, 0, 0.8) 0.5em 0.5em 4em;
 }
 #watch .frame-face:before {
@@ -104,45 +127,38 @@ ul {
   left: 0.3em;
   background: -webkit-linear-gradient(
       135deg,
-      rgba(246, 248, 249, 0) 0%,
-      rgba(229, 235, 238, 1) 50%,
-      rgba(205, 212, 217, 1) 51%,
-      rgba(245, 247, 249, 0) 100%
+      v-bind(watchFaceBackground) 0%,
+      v-bind(watchFaceBackground) 50%,
+      v-bind(watchFaceBackground) 51%,
+      v-bind(watchFaceBackground) 100%
     ),
-    -webkit-radial-gradient(center, ellipse cover, rgba(246, 248, 249, 1) 0%, rgba(
-            229,
-            235,
-            238,
-            1
-          )
-          65%, rgba(205, 212, 217, 1) 66%, rgba(245, 247, 249, 1) 100%);
+    -webkit-radial-gradient(center, ellipse cover, v-bind(watchFaceBackground)
+          0%, rgba v-bind(watchFaceBackground) 65%, v-bind(watchFaceBackground)
+          66%, v-bind(watchFaceBackground) 100%);
   background: -moz-linear-gradient(
       135deg,
-      rgba(246, 248, 249, 0) 0%,
-      rgba(229, 235, 238, 1) 50%,
-      rgba(205, 212, 217, 1) 51%,
-      rgba(245, 247, 249, 0) 100%
+      v-bind(watchFaceBackground) 0%,
+      v-bind(watchFaceBackground) 50%,
+      v-bind(watchFaceBackground) 51%,
+      v-bind(watchFaceBackground) 100%
     ),
-    -moz-radial-gradient(center, ellipse cover, rgba(246, 248, 249, 1) 0%, rgba(
-            229,
-            235,
-            238,
-            1
+    -moz-radial-gradient(center, ellipse cover, v-bind(watchFaceBackground) 0%, v-bind(
+            watchFaceBackground
           )
-          65%, rgba(205, 212, 217, 1) 66%, rgba(245, 247, 249, 1) 100%);
+          65%, v-bind(watchFaceBackground) 66%, v-bind(watchFaceBackground) 100%);
   background: linear-gradient(
       135deg,
-      rgba(246, 248, 249, 0) 0%,
-      rgba(229, 235, 238, 1) 50%,
-      rgba(205, 212, 217, 1) 51%,
-      rgba(245, 247, 249, 0) 100%
+      v-bind(watchFaceBackground) 0%,
+      v-bind(watchFaceBackground) 50%,
+      v-bind(watchFaceBackground) 51%,
+      v-bind(watchFaceBackground) 100%
     ),
     radial-gradient(
       ellipse at center,
-      rgba(246, 248, 249, 1) 0%,
-      rgba(229, 235, 238, 1) 65%,
-      rgba(205, 212, 217, 1) 66%,
-      rgba(245, 247, 249, 1) 100%
+      v-bind(watchFaceBackground) 0%,
+      v-bind(watchFaceBackground) 65%,
+      v-bind(watchFaceBackground) 66%,
+      v-bind(watchFaceBackground) 100%
     );
 }
 #watch .frame-face:after {
@@ -155,9 +171,21 @@ ul {
   left: 0.9em;
   box-shadow: inset rgba(0, 0, 0, 0.2) 0.2em 0.2em 1em;
   border: 0.1em solid rgba(0, 0, 0, 0.2);
-  background: -webkit-linear-gradient(top, #fff, #ccc);
-  background: -moz-linear-gradient(top, #fff, #ccc);
-  background: linear-gradient(to bottom, #fff, #ccc);
+  background: -webkit-linear-gradient(
+    top,
+    v-bind(watchFaceBackground),
+    v-bind(watchFaceBackground)
+  );
+  background: -moz-linear-gradient(
+    top,
+    v-bind(watchFaceBackground),
+    v-bind(watchFaceBackground)
+  );
+  background: linear-gradient(
+    to bottom,
+    v-bind(watchFaceBackground),
+    v-bind(watchFaceBackground)
+  );
 }
 #watch .minute-marks li {
   display: block;
