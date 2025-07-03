@@ -45,5 +45,8 @@
     "clock",
     "analog-clock",
     "vue3-analog-clock"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
