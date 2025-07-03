@@ -87,7 +87,9 @@ You can customize the appearance of the analog clock component using the followi
 
 ## 🌱 Contributors
 
-[![](https://camo.githubusercontent.com/e5bdd846c2bf495454efaabb0e3ea72815dddd51492dd7366ad9cafae91f1223/68747470733a2f2f636f6e747269622e726f636b732f696d6167653f7265706f3d4d616468757368615072617361642f7675652d616e616c6f672d636c6f636b)](https://github.com/MadhushaPrasad/vue-analog-clock/graphs/contributors)
+<a href="https://github.com/MadhushaPrasad/vue-analog-clock/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MadhushaPrasad/vue-analog-clock" />
+</a>
 
 ---
 
