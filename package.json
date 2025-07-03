@@ -1,7 +1,7 @@
 {
   "name": "@madhusha_99/vue3-analog-clock",
   "description": "A simple analog clock component for Vue 3",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "files": [
     "dist"
   ],
