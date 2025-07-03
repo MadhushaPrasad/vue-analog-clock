@@ -1,7 +1,7 @@
 {
   "name": "@madhusha_99/vue3-analog-clock",
   "description": "A simple analog clock component for Vue 3",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "files": [
     "dist"
   ],
@@ -28,14 +28,15 @@
     "vite": "^5.2.0",
     "vite-plugin-lib-inject-css": "^2.0.1"
   },
-  "author": {
-    "name": "madhusha_99",
-    "email": "madushaprasad21@gmail.com"
-  },
+  "author": "Madhusha Prasad <https://github.com/MadhushaPrasad>",
   "license": "MIT",
+  "homepage": "https://github.com/MadhushaPrasad/vue-analog-clock/#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/MadhushaPrasad/vue-analog-clock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MadhushaPrasad/notification-center/issues"
   },
   "keywords": [
     "vue-analog-clock",
