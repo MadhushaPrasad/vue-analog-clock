@@ -1,8 +1,7 @@
 {
-  "name": "vue3-analog-clock",
-  "private": false,
+  "name": "@madhusha_99/vue3-analog-clock",
   "description": "A simple analog clock component for Vue 3",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "files": [
     "dist"
   ],
@@ -39,8 +38,8 @@
     "url": "https://github.com/MadhushaPrasad/vue-analog-clock.git"
   },
   "keywords": [
-    "vue",
-    "vue3",
+    "vue-analog-clock",
+    "vue3-analog-clock",
     "analog",
     "clock",
     "analog-clock",
