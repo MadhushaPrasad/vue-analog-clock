@@ -1,15 +1,14 @@
-````markdown
 # Vue 3 Analog Clock Component
 
 A simple **analog clock component** for **Vue 3**.
 
 ## 📦 Installation
 
-Install the package via npm:
+**Install the package via npm:**
 
 ```bash
 npm install @madhusha_99/vue3-analog-clock
-````
+```
 
 or visit the [npm package page](https://www.npmjs.com/package/@madhusha_99/vue3-analog-clock)
 
@@ -101,5 +100,3 @@ This package is licensed under the [MIT License](https://github.com/MadhushaPras
 ## 🔍 Keywords
 
 **Vue, Vue 3, Analog Clock, Clock Component, Vue Component**
-
-```
